@@ -1,0 +1,21 @@
+# Exclude everything
+/*
+
+# Include specifically
+
+## important Git files
+!.gitignore
+
+## editorconfig
+!.editorconfig
+
+## pipenv
+!/Pipfile
+!/Pipfile.lock
+
+## 'cache' subdirs
+cache
+__pycache__
+
+## Sources
+!/src
