@@ -1,0 +1,9 @@
+[project]
+name = "lu-decomposer"
+dynamic = "version"
+description = "LU decomposer"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.4.1",
+]

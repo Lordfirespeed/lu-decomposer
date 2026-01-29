@@ -9,9 +9,17 @@
 ## editorconfig
 !.editorconfig
 
+## markdowns
+!/README.md
+
 ## pipenv
 !/Pipfile
 !/Pipfile.lock
+
+## uv
+!/.python-version
+!/pyproject.toml
+!/uv.lock
 
 ## 'cache' subdirs
 cache
